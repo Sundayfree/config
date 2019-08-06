@@ -1,0 +1,124 @@
+
+{
+    "editor.formatOnSave": true,
+    "editor.acceptSuggestionOnEnter": true,
+    "editor.renderIndentGuides": true,
+    "editor.fontSize": 13,
+    "editor.fontWeight": "100",
+    "editor.fontFamily": "Menlo, Monaco",
+    "editor.fontLigatures": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.snippetSuggestions": "top",
+    "debug.console.fontSize": 16,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    //"editor.detectIndentation": false, // auto format
+    "editor.tabCompletion": "on",
+    "editor.wordWrap": "on",
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.smoothScrolling": true,
+    
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 0,
+    "explorer.sortOrder": "type",
+    "files.trimFinalNewlines": true,
+    
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html"
+    },
+    "emmet.syntaxProfiles": {
+        "html": {
+            "filters": "bem",
+            "attr_quotes": "single"
+        },
+        "jsx": {
+            "self_closing_tag": true
+        }
+    },
+    "emmet.preferences": {
+        "filter.commentAfter": "\n<!-- /[#ID][.CLASS] -->"
+    },
+    
+    "breadcrumbs.enabled": true,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.iconTheme": "material-icon-theme",
+    
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        // {
+            //   "language": "html",
+            //   "autoFix": true
+            // },
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    
+    "gitlens.blame.highlight.enabled": true,
+    
+    "html.format.indentInnerHtml": true,
+    "html.format.indentHandlebars": true,
+    
+    "cSpell.allowCompoundWords": true,
+    "prettier.eslintIntegration": true,
+    
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.highlightActiveScope": true,
+    "html.format.endWithNewline": true,
+    "explorer.confirmDelete": false,
+    "prettier.semi": true,
+    "prettier.singleQuote": true,
+    
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 0,
+    "javascript.validate.enable": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false, //typescript,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#fff"
+        // "terminalCursor.foreground": "#ffff00"
+    },
+    "editor.parameterHints.enabled": true,
+    "editor.quickSuggestionsDelay": 10,
+    
+    // Controls if suggestions should automatically show up when typing trigger characters
+    "editor.suggestOnTriggerCharacters": true,
+    
+    // Controls whether sorting favours words that appear close to the cursor
+    "editor.suggest.localityBonus": true,
+    
+    // Controls how suggestions are pre-selected when showing the suggest list
+    "editor.suggestSelection": "recentlyUsed",
+    
+    // Enable word based suggestions
+    "editor.wordBasedSuggestions": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "workbench.colorTheme": "One Monokai",
+    "material-icon-theme.folders.theme": "specific",
+    "cSpell.userWords": ["Pantothenic"]
+}
